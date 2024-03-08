@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trim Booking Sheet</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom CSS to vertically center text in cells with rowspan */
+    .table-bordered tbody th[rowspan], .table-bordered tbody td[rowspan] {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2>Trim Booking Sheet</h2>
+  <div class="row mt-3">
+    <div class="col">
+      <h4>Trim Items</h4>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>SL</th>
+            <th>ITEM</th>
+            <th>DESCRIPTION</th>
+            <th>QUANTITY</th>
+            <th>UOM</th>
+            <th>UNIT PRICE</th>
+            <th>TOTAL VALUE</th>
+            <th>REMARKS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Buttons</td>
+            <td>Plastic 4-hole buttons</td>
+            <td>5000</td>
+            <td>pieces</td>
+            <td>$0.05</td>
+            <td>$250.00</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Zippers</td>
+            <td>Nylon zippers</td>
+            <td>2000</td>
+            <td>meters</td>
+            <td>$0.20</td>
+            <td>$400.00</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Labels</td>
+            <td>Woven fabric labels</td>
+            <td>10000</td>
+            <td>pieces</td>
+            <td>$0.02</td>
+            <td>$200.00</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Ribbons</td>
+            <td>Satin ribbons</td>
+            <td>300</td>
+            <td>yards</td>
+            <td>$0.30</td>
+            <td>$90.00</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Thread</td>
+            <td>Polyester sewing thread</td>
+            <td>50</td>
+            <td>spools</td>
+            <td>$1.00</td>
+            <td>$50.00</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+	<div class="row mt-3">
+  <div class="col">
+    <h4>Trim Color and Size Wise Quantity</h4>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>SL</th>
+          <th>ITEM NAME</th>
+          <th>DESCRIPTION</th>
+          <th>COLOR</th>
+          <th colspan="6" class="text-center">ALL SIZES</th>
+          <th>TOTAL QUANTITY</th>
+          <th>REMARKS</th>
+        </tr>
+		  <tr>
+          <th colspan="4"></th>
+
+  
+          <th>XS</th>
+          <th>S</th>
+          <th>M</th>
+          <th>L</th>
+          <th>XL</th>
+          <th>XXL</th>
+          <th colspan="2"></th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">1</td>
+          <td rowspan="2">Buttons</td>
+          <td rowspan="2">Plastic 4-hole buttons</td>
+          <td>Black</td>
+          <td>1000</td>
+          <td>1500</td>
+          <td>1000</td>
+          <td>1000</td>
+          <td>1000</td>
+          <td>500</td>
+          <td>6000</td>
+          <td></td>
+        </tr>
+        <tr>
+          
+          <td>Blue</td>
+          <td>1000</td>
+          <td>1500</td>
+          <td>1000</td>
+          <td>1000</td>
+          <td>1000</td>
+          <td>500</td>
+          <td>6000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Zippers</td>
+          <td>Nylon zippers</td>
+          <td>Black</td>
+          <td>400</td>
+          <td>600</td>
+          <td>400</td>
+          <td>400</td>
+          <td>400</td>
+          <td>200</td>
+          <td>2400</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Labels</td>
+          <td>Woven fabric labels</td>
+          <td>White</td>
+          <td>2000</td>
+          <td>3000</td>
+          <td>2000</td>
+          <td>2000</td>
+          <td>2000</td>
+          <td>1000</td>
+          <td>12000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Ribbons</td>
+          <td>Satin ribbons</td>
+          <td>Red</td>
+          <td>50</td>
+          <td>70</td>
+          <td>50</td>
+          <td>50</td>
+          <td>50</td>
+          <td>30</td>
+          <td>300</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Thread</td>
+          <td>Polyester sewing thread</td>
+          <td>White</td>
+          <td>5</td>
+          <td>10</td>
+          <td>10</td>
+          <td>10</td>
+          <td>10</td>
+          <td>5</td>
+          <td>50</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
